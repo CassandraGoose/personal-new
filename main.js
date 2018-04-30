@@ -21,5 +21,5 @@ all.addEventListener('mousemove', (e) => {
   var y = e.clientY
   let calculatedX = calculateLightX(x)
   let calculatedY = calculateLightY(y)
-  mouseDiv.style.backgroundImage = `-webkit-radial-gradient(${calculatedX} ${calculatedY}, circle, transparent 50px, black)`
+  mouseDiv.style.backgroundImage = `-webkit-radial-gradient(${calculatedX} ${calculatedY}, circle, transparent 50px, black 100px)`
 })
