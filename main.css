@@ -1,0 +1,6 @@
+#mousey {
+  width: 800px;
+  height: 800px;
+  background-color: transparent;
+  background-image: -webkit-radial-gradient(50% 50%, circle, transparent 50px, black 0);
+}
