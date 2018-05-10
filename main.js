@@ -1,5 +1,6 @@
 const all = document.querySelector('body')
 const mouseDiv = document.getElementById('mousey')
+const image = document.getElementById('image')
 
   let width = window.innerWidth
   let height = window.innerHeight
@@ -22,4 +23,8 @@ all.addEventListener('mousemove', (e) => {
   let calculatedX = calculateLightX(x)
   let calculatedY = calculateLightY(y)
   mouseDiv.style.backgroundImage = `-webkit-radial-gradient(${calculatedX} ${calculatedY}, circle, transparent 50px, black 100px)`
+})
+
+image.addEventListener('click', (e) => {
+  console.log('clicking on image!')
 })
